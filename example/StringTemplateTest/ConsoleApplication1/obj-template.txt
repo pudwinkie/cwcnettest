@@ -1,0 +1,4 @@
+﻿<data>
+	<name>$user.Name$</name>
+	<age>$user.Age$</age>
+</data>

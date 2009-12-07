@@ -1,0 +1,5 @@
+﻿<data>
+$if(sex)$
+	<title>$name$</title>
+$endif$
+</data>

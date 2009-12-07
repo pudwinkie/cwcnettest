@@ -1,0 +1,5 @@
+﻿<data>
+$names:{
+	<name>$it$</name> 
+}$
+</data>
