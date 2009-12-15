@@ -8,6 +8,7 @@ namespace cwc
     /// </summary>
     /// <example>
     /// HotKey.RegisterHotKey(this.Handle, 100, HotKey.KeyModifiers.Alt, Keys.A);
+	/// HotKey.UnregisterHotKey(this.Handle, 100);
     /// protected override void WndProc(ref Message m)
     /// {
     ///    if (m.get_Msg() == 0x312)
