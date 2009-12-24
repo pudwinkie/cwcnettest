@@ -1,0 +1,3 @@
+obj\Debug\Advanced Virtual Mode with Caching.exe
+obj\Debug\Advanced Virtual Mode with Caching.xml
+obj\Debug\Advanced Virtual Mode with Caching.pdb
