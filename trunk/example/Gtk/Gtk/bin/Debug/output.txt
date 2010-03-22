@@ -1,0 +1,14 @@
+    var msiMessageTypeUser     = 0x03000000;
+    var msiMessageTypeYesNo    = 4;
+    var msiMessageTypeDefault1 = 0x000;
+
+    var options =    msiMessageTypeUser
+            + msiMessageTypeYesNo
+            + msiMessageTypeDefault1;
+
+
+    var objRecord = Session.Installer.CreateRecord(1);
+    objRecord.StringData(0) = "[1]";
+    objRecord.StringData(1) = "Do you want to create the file?";
+
+    var response = Session.Message(options, objRecord);
