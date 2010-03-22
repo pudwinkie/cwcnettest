@@ -1,0 +1,5 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ReferencePath>C:\GTK\2.8\bin\</ReferencePath>
+  </PropertyGroup>
+</Project>
