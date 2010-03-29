@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "DBInstaller", "DBInstaller\DBInstaller.vdproj", "{9901038C-6A44-4CA8-997A-31E35385EF84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstallHelper", "InstallHelper\InstallHelper.csproj", "{9318312F-6320-488B-A7FA-203A20FE9B1F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9901038C-6A44-4CA8-997A-31E35385EF84}.Debug|Any CPU.ActiveCfg = Debug
+		{9901038C-6A44-4CA8-997A-31E35385EF84}.Debug|Any CPU.Build.0 = Debug
+		{9901038C-6A44-4CA8-997A-31E35385EF84}.Release|Any CPU.ActiveCfg = Release
+		{9901038C-6A44-4CA8-997A-31E35385EF84}.Release|Any CPU.Build.0 = Release
+		{9318312F-6320-488B-A7FA-203A20FE9B1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9318312F-6320-488B-A7FA-203A20FE9B1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9318312F-6320-488B-A7FA-203A20FE9B1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9318312F-6320-488B-A7FA-203A20FE9B1F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
