@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="WhiteBoard">
+</Property><Property Name="Solution File" Value="C:\Documents and Settings\Administrator.MYCHAT-1A793BE7\桌面\CSharpWhiteboard_demo\WhiteBoard.sln">
+</Property><Property Name="User Options File" Value="C:\Documents and Settings\Administrator.MYCHAT-1A793BE7\桌面\CSharpWhiteboard_demo\WhiteBoard.suo">
+</Property><Property Name="Date" Value="2007年5月31日">
+</Property><Property Name="Time" Value="上午 00:25">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="WhiteBoard.sln" Description="File successfully backed up as C:\Documents and Settings\Administrator.MYCHAT-1A793BE7\桌面\CSharpWhiteboard_demo\Backup\WhiteBoard.sln">
+</Event><Event ErrorLevel="0" Project="" Source="WhiteBoard.suo" Description="File successfully backed up as C:\Documents and Settings\Administrator.MYCHAT-1A793BE7\桌面\CSharpWhiteboard_demo\Backup\WhiteBoard.suo">
+</Event><Event ErrorLevel="0" Project="WhiteBoard" Source="WhiteBoard.csproj" Description="Project file successfully backed up as C:\Documents and Settings\Administrator.MYCHAT-1A793BE7\桌面\CSharpWhiteboard_demo\Backup\WhiteBoard.csproj">
+</Event><Event ErrorLevel="0" Project="WhiteBoard" Source="WhiteBoard.csproj.user" Description="Project user file successfully backed up as C:\Documents and Settings\Administrator.MYCHAT-1A793BE7\桌面\CSharpWhiteboard_demo\Backup\WhiteBoard.csproj.user">
+</Event><Event ErrorLevel="0" Project="WhiteBoard" Source="AboutForm.cs" Description="File successfully backed up as C:\Documents and Settings\Administrator.MYCHAT-1A793BE7\桌面\CSharpWhiteboard_demo\Backup\AboutForm.cs">
+</Event><Event ErrorLevel="0" Project="WhiteBoard" Source="AssemblyInfo.cs" Description="File successfully backed up as C:\Documents and Settings\Administrator.MYCHAT-1A793BE7\桌面\CSharpWhiteboard_demo\Backup\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="WhiteBoard" Source="DrawAreaCtrl.cs" Description="File successfully backed up as C:\Documents and Settings\Administrator.MYCHAT-1A793BE7\桌面\CSharpWhiteboard_demo\Backup\DrawAreaCtrl.cs">
+</Event><Event ErrorLevel="0" Project="WhiteBoard" Source="MainForm.cs" Description="File successfully backed up as C:\Documents and Settings\Administrator.MYCHAT-1A793BE7\桌面\CSharpWhiteboard_demo\Backup\MainForm.cs">
+</Event><Event ErrorLevel="0" Project="WhiteBoard" Source="NetworkManager.cs" Description="File successfully backed up as C:\Documents and Settings\Administrator.MYCHAT-1A793BE7\桌面\CSharpWhiteboard_demo\Backup\NetworkManager.cs">
+</Event><Event ErrorLevel="0" Project="WhiteBoard" Source="WhiteBoardMessages.cs" Description="File successfully backed up as C:\Documents and Settings\Administrator.MYCHAT-1A793BE7\桌面\CSharpWhiteboard_demo\Backup\WhiteBoardMessages.cs">
+</Event><Event ErrorLevel="0" Project="WhiteBoard" Source="App.ico" Description="File successfully backed up as C:\Documents and Settings\Administrator.MYCHAT-1A793BE7\桌面\CSharpWhiteboard_demo\Backup\App.ico">
+</Event><Event ErrorLevel="0" Project="WhiteBoard" Source="AboutForm.resx" Description="File successfully backed up as C:\Documents and Settings\Administrator.MYCHAT-1A793BE7\桌面\CSharpWhiteboard_demo\Backup\AboutForm.resx">
+</Event><Event ErrorLevel="0" Project="WhiteBoard" Source="DrawAreaCtrl.resx" Description="File successfully backed up as C:\Documents and Settings\Administrator.MYCHAT-1A793BE7\桌面\CSharpWhiteboard_demo\Backup\DrawAreaCtrl.resx">
+</Event><Event ErrorLevel="0" Project="WhiteBoard" Source="MainForm.resx" Description="File successfully backed up as C:\Documents and Settings\Administrator.MYCHAT-1A793BE7\桌面\CSharpWhiteboard_demo\Backup\MainForm.resx">
+</Event><Event ErrorLevel="0" Project="WhiteBoard" Source="WhiteBoard.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="WhiteBoard" Source="WhiteBoard.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="WhiteBoard.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="WhiteBoard.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="WhiteBoard" Source="WhiteBoard.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>
