@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<template>
+  <strings>
+    <string key="NAME"></string>
+  </strings>
+  <images>
+    <image key="PIC"></image>
+  </images>
+</template>
