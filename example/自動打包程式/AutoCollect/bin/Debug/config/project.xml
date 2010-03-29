@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="big5"?>
+<wm>
+	<version>
+		<id>WM25</id>	
+		<ip>192.168.10.120</ip>
+		<work_dir>home1</work_dir>
+		<projects>
+			<project>
+				<name>Arick 個人專用機</name>
+				<tag>WM25_ARICK</tag>
+			</project>
+			<project>
+				<name>文官E學院</name>
+				<tag>WM25_NCSI</tag>
+			</project>
+			<project>
+				<name>明新</name>
+				<tag>WM25_MUST</tag>
+			</project>
+
+		</projects>
+	</version>
+	<version>
+		<id>WM3</id>
+		<ip>192.168.10.112</ip>
+		<work_dir>home</work_dir>
+		<projects>
+			<project>
+				<name>Arick 個人專用機</name>
+				<tag>WM_ARICK</tag>
+			</project>
+		</projects>
+	</version>
+	<version>
+		<id>WM24</id>	
+		<ip>192.168.10.110</ip>
+		<work_dir>home1</work_dir>
+		<projects>
+			<project>
+				<name>文官E學院</name>
+				<tag>WM24_NCSI</tag>
+			</project>
+		</projects>
+	</version>
+</wm>

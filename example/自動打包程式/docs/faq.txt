@@ -1,0 +1,6 @@
+常見問題：
+
+1. 為什麼程式執行的時候會出現 mscore.dll 找不到或版本錯誤的情形？
+A: 因為程式是利用 .Net Framework 2.0 開發，所以系統必須先安裝 .Net Framework 2.0 才能正常執行。
+.Net 2.0 下載網址 http://www.microsoft.com/downloads/details.aspx?FamilyID=0856eacb-4362-4b0d-8edd-aab15c5e04f5&DisplayLang=en
+

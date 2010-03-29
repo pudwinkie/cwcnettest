@@ -1,0 +1,10 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\ChuiWenChiu.Utility.dll
+bin\Debug\ChuiWenChiu.Utility.pdb
+obj\Debug\ChuiWenChiu.Utility.dll
+obj\Debug\ChuiWenChiu.Utility.pdb
+bin\Release\ChuiWenChiu.Utility.dll
+bin\Release\ChuiWenChiu.Utility.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\ChuiWenChiu.Utility.dll
+obj\Release\ChuiWenChiu.Utility.pdb
