@@ -1,0 +1,8 @@
+bin\Debug\LiveUpdate.exe
+bin\Debug\LiveUpdate.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ChuiWenChiu.LiveUpdate.FDonwload.resources
+obj\Debug\LiveUpdate.Properties.Resources.resources
+obj\Debug\LiveUpdate.csproj.GenerateResource.Cache
+obj\Debug\LiveUpdate.exe
+obj\Debug\LiveUpdate.pdb
