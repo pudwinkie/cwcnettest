@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="big5"?>
+<configuration>
+  <source-server>192.168.10.120</source-server>
+  <project-tag>
+  </project-tag>
+  <source-folder>/home1/WM25_BETTY/package</source-folder>
+　<encoder-port>22</encoder-port><encoder-server>192.168.10.20</encoder-server><encoder-folder>arick</encoder-folder><encoder-username>wmenc</encoder-username><encoder-password>wmenc.2004</encoder-password><shell-script>arick_net3.sh</shell-script><pack-folder>remote</pack-folder></configuration>

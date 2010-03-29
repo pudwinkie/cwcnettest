@@ -1,0 +1,11 @@
+打包 patch
+cd /home2/wmenc/arick
+sh arick_net3.sh TEST 192.168.10.120 /home1/WM25_MUST/package
+
+打包整個站台
+cd /home2/wmenc/arick
+sh arick_net3.sh TEST 192.168.10.120 /home1/WM25_MUST
+
+更新安裝程式
+cd /home2/wmenc
+php install.php ABC

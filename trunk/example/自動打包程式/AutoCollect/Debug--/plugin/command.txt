@@ -1,0 +1,2 @@
+cd saly
+./arick_net3.sh TT 192.168.10.120 WM25_ARICK CCIT

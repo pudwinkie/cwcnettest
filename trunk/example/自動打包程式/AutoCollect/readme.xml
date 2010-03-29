@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AutoCollection</name>
+    </assembly>
+    <members>
+        <member name="T:ConsoleApplication1.FCollect">
+            <summary>
+            主表單
+            </summary>
+        </member>
+        <member name="M:ConsoleApplication1.FCollect.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:ConsoleApplication1.FCollect.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ConsoleApplication1.FCollect.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ConsoleApplication1.FCollect.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:ConsoleApplication1.Properties.Resources">
+            <summary>
+              用於查詢當地語系化字串等的強型別資源類別
+            </summary>
+        </member>
+        <member name="P:ConsoleApplication1.Properties.Resources.ResourceManager">
+            <summary>
+              傳回這個類別使用的快取的 ResourceManager 執行個體。
+            </summary>
+        </member>
+        <member name="P:ConsoleApplication1.Properties.Resources.Culture">
+            <summary>
+              覆寫目前執行緒的 CurrentUICulture 屬性，對象是所有
+              使用這個強型別資源類別的資源查閱。
+            </summary>
+        </member>
+        <member name="M:ChuiWenChiu.CXMLConfig.#ctor">
+            <summary>
+            建構子
+            </summary>
+        </member>
+        <member name="M:ChuiWenChiu.CXMLConfig.load(System.String)">
+            <summary>
+            儎入設定檔
+            </summary>
+            <param name="config"></param>
+        </member>
+        <member name="M:ChuiWenChiu.CXMLConfig.save">
+            <summary>
+            儲存檔案
+            </summary>
+        </member>
+        <member name="M:ChuiWenChiu.CXMLConfig.save(System.String)">
+            <summary>
+            另存新檔
+            </summary>
+            <param name="filename"></param>
+        </member>
+        <member name="M:ChuiWenChiu.CXMLConfig.getText(System.String)">
+            <summary>
+            取得節點文字
+            </summary>
+            <param name="tagName">節點名稱</param>
+            <returns>節點文字</returns>
+        </member>
+        <member name="M:ChuiWenChiu.CXMLConfig.setText(System.String,System.String)">
+            <summary>
+            設定節點的文字
+            </summary>
+            <param name="tagName">節點名稱</param>
+            <param name="value">節點文字</param>
+        </member>
+        <member name="T:ConsoleApplication1.FConfig">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ConsoleApplication1.FConfig.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ConsoleApplication1.FConfig.setConfig(System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="conf"></param>
+        </member>
+        <member name="F:ConsoleApplication1.FConfig.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ConsoleApplication1.FConfig.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ConsoleApplication1.FConfig.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+    </members>
+</doc>
