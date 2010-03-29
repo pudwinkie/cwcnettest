@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<DeltasList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.5.2.0">
+  <DynamicItems />
+  <AddressBookDeltas />
+  <MembershipDeltas />
+  <Profile>
+    <DateModified>2009-01-17T15:43:55.597+08:00</DateModified>
+    <ResourceID>FF2F29C157BA0B64!104</ResourceID>
+    <Photo>
+      <DateModified>0001-01-01T00:00:00</DateModified>
+    </Photo>
+    <DisplayName>Chui-Wen</DisplayName>
+    <PersonalMessage />
+  </Profile>
+</DeltasList>

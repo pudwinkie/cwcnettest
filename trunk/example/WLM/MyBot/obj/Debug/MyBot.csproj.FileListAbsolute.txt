@@ -1,0 +1,6 @@
+C:\Program Files\Windows Live\Messenger\MyBot.Sunnet.dll
+C:\Users\cwchiu\Documents\Visual Studio 2008\Projects\WLM\MyBot\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\cwchiu\Documents\Visual Studio 2008\Projects\WLM\MyBot\obj\Debug\MyBot.Sunnet.dll
+C:\Users\cwchiu\Documents\Visual Studio 2008\Projects\WLM\MyBot\obj\Debug\MyBot.Sunnet.pdb
+C:\Program Files\Windows Live\Messenger\MyBot.Sunnet.pdb
+C:\Program Files\Windows Live\Messenger\MyBot.Sunnet.dll.config

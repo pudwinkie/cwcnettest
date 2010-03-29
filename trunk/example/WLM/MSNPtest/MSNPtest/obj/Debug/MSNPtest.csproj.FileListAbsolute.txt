@@ -1,0 +1,7 @@
+C:\Users\cwchiu\Documents\Visual Studio 2008\Projects\MSNPtest\MSNPtest\bin\Debug\MSNPtest.exe
+C:\Users\cwchiu\Documents\Visual Studio 2008\Projects\MSNPtest\MSNPtest\bin\Debug\MSNPtest.pdb
+C:\Users\cwchiu\Documents\Visual Studio 2008\Projects\MSNPtest\MSNPtest\bin\Debug\MSNPSharp.dll
+C:\Users\cwchiu\Documents\Visual Studio 2008\Projects\MSNPtest\MSNPtest\bin\Debug\MSNPSharp.XmlSerializers.dll
+C:\Users\cwchiu\Documents\Visual Studio 2008\Projects\MSNPtest\MSNPtest\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\cwchiu\Documents\Visual Studio 2008\Projects\MSNPtest\MSNPtest\obj\Debug\MSNPtest.exe
+C:\Users\cwchiu\Documents\Visual Studio 2008\Projects\MSNPtest\MSNPtest\obj\Debug\MSNPtest.pdb

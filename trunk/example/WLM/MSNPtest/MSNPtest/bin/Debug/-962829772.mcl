@@ -1,0 +1,373 @@
+<?xml version="1.0"?>
+<ContactList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.5.2.0">
+  <MembershipList>
+    <item>
+      <key>
+        <ServiceFilterType>Messenger</ServiceFilterType>
+      </key>
+      <value>
+        <ServiceMembership>
+          <Service>
+            <Id>1</Id>
+            <ServiceType>Messenger</ServiceType>
+            <LastChange>2009-01-19T14:25:04.68+08:00</LastChange>
+            <ForeignId />
+          </Service>
+          <Memberships>
+            <item>
+              <key>
+                <MemberRole>Allow</MemberRole>
+              </key>
+              <value>
+                <Dictionary>
+                  <item>
+                    <key>
+                      <string>cwchiu@hotmail.com:PassportMember</string>
+                    </key>
+                    <value>
+                      <BaseMember xmlns:q1="http://www.msn.com/webservices/AddressBook" xsi:type="q1:PassportMember">
+                        <q1:MembershipId>2</q1:MembershipId>
+                        <q1:Type>Passport</q1:Type>
+                        <q1:State>Accepted</q1:State>
+                        <q1:LastChanged>2009-01-15T14:55:50.827+08:00</q1:LastChanged>
+                        <q1:JoinedDate>1900-01-01T08:00:00+08:00</q1:JoinedDate>
+                        <q1:ExpirationDate>0001-01-01T00:00:00</q1:ExpirationDate>
+                        <q1:Changes />
+                        <q1:PassportName>cwchiu@hotmail.com</q1:PassportName>
+                        <q1:IsPassportNameHidden>false</q1:IsPassportNameHidden>
+                        <q1:PassportId>0</q1:PassportId>
+                        <q1:CID>-3864772205260932888</q1:CID>
+                        <q1:PassportChanges />
+                      </BaseMember>
+                    </value>
+                  </item>
+                  <item>
+                    <key>
+                      <string>jeff@cc.nsysu.edu.tw:PassportMember</string>
+                    </key>
+                    <value>
+                      <BaseMember xmlns:q1="http://www.msn.com/webservices/AddressBook" xsi:type="q1:PassportMember">
+                        <q1:MembershipId>5</q1:MembershipId>
+                        <q1:Type>Passport</q1:Type>
+                        <q1:State>Accepted</q1:State>
+                        <q1:LastChanged>2009-01-19T14:25:04.68+08:00</q1:LastChanged>
+                        <q1:JoinedDate>1900-01-01T08:00:00+08:00</q1:JoinedDate>
+                        <q1:ExpirationDate>0001-01-01T00:00:00</q1:ExpirationDate>
+                        <q1:Changes />
+                        <q1:PassportName>jeff@cc.nsysu.edu.tw</q1:PassportName>
+                        <q1:IsPassportNameHidden>false</q1:IsPassportNameHidden>
+                        <q1:PassportId>0</q1:PassportId>
+                        <q1:CID>2872771984130400582</q1:CID>
+                        <q1:PassportChanges />
+                      </BaseMember>
+                    </value>
+                  </item>
+                </Dictionary>
+              </value>
+            </item>
+            <item>
+              <key>
+                <MemberRole>Reverse</MemberRole>
+              </key>
+              <value>
+                <Dictionary>
+                  <item>
+                    <key>
+                      <string>cwchiu@hotmail.com:PassportMember</string>
+                    </key>
+                    <value>
+                      <BaseMember xmlns:q1="http://www.msn.com/webservices/AddressBook" xsi:type="q1:PassportMember">
+                        <q1:MembershipId>3</q1:MembershipId>
+                        <q1:Type>Passport</q1:Type>
+                        <q1:DisplayName>Chui-Wen Chiu</q1:DisplayName>
+                        <q1:State>Accepted</q1:State>
+                        <q1:LastChanged>2009-01-15T14:56:09.043+08:00</q1:LastChanged>
+                        <q1:JoinedDate>1900-01-01T08:00:00+08:00</q1:JoinedDate>
+                        <q1:ExpirationDate>0001-01-01T00:00:00</q1:ExpirationDate>
+                        <q1:Changes />
+                        <q1:PassportName>cwchiu@hotmail.com</q1:PassportName>
+                        <q1:IsPassportNameHidden>false</q1:IsPassportNameHidden>
+                        <q1:PassportId>0</q1:PassportId>
+                        <q1:CID>-3864772205260932888</q1:CID>
+                        <q1:PassportChanges />
+                      </BaseMember>
+                    </value>
+                  </item>
+                </Dictionary>
+              </value>
+            </item>
+          </Memberships>
+        </ServiceMembership>
+      </value>
+    </item>
+  </MembershipList>
+  <AddressbookLastChange>2009-01-19T14:30:07.63+08:00</AddressbookLastChange>
+  <DynamicItemLastChange>2009-01-17T15:43:57.07+08:00</DynamicItemLastChange>
+  <MyProperties>
+    <item>
+      <key>
+        <string>preferredhost</string>
+      </key>
+      <value>
+        <string>by3.contacts.msn.com</string>
+      </value>
+    </item>
+    <item>
+      <key>
+        <string>mbea</string>
+      </key>
+      <value>
+        <string>0</string>
+      </value>
+    </item>
+    <item>
+      <key>
+        <string>gtc</string>
+      </key>
+      <value>
+        <string>1</string>
+      </value>
+    </item>
+    <item>
+      <key>
+        <string>blp</string>
+      </key>
+      <value>
+        <string>0</string>
+      </value>
+    </item>
+    <item>
+      <key>
+        <string>roamliveproperties</string>
+      </key>
+      <value>
+        <string>1</string>
+      </value>
+    </item>
+    <item>
+      <key>
+        <string>lastchanged</string>
+      </key>
+      <value>
+        <string>2009-01-14T23:12:23.36-08:00</string>
+      </value>
+    </item>
+    <item>
+      <key>
+        <string>mpop</string>
+      </key>
+      <value>
+        <string>0</string>
+      </value>
+    </item>
+  </MyProperties>
+  <Groups>
+    <item>
+      <key>
+        <guid>fde5caee-e1f6-4ac7-8860-1cb06312dc40</guid>
+      </key>
+      <value>
+        <GroupType>
+          <groupId xmlns="http://www.msn.com/webservices/AddressBook">fde5caee-e1f6-4ac7-8860-1cb06312dc40</groupId>
+          <groupInfo xmlns="http://www.msn.com/webservices/AddressBook">
+            <annotations>
+              <Annotation>
+                <Name>MSN.IM.Display</Name>
+                <Value>1</Value>
+              </Annotation>
+            </annotations>
+            <groupType>c8529ce2-6ead-434d-881f-341e17db3ff8</groupType>
+            <name>Favorites</name>
+            <IsNotMobileVisible>false</IsNotMobileVisible>
+            <IsPrivate>false</IsPrivate>
+          </groupInfo>
+          <propertiesChanged xmlns="http://www.msn.com/webservices/AddressBook" />
+          <fDeleted xmlns="http://www.msn.com/webservices/AddressBook">false</fDeleted>
+          <lastChange xmlns="http://www.msn.com/webservices/AddressBook">2009-01-15T15:12:30.413+08:00</lastChange>
+        </GroupType>
+      </value>
+    </item>
+    <item>
+      <key>
+        <guid>67c80ded-376a-48cb-b17b-5f62a6e223e1</guid>
+      </key>
+      <value>
+        <GroupType>
+          <groupId xmlns="http://www.msn.com/webservices/AddressBook">67c80ded-376a-48cb-b17b-5f62a6e223e1</groupId>
+          <groupInfo xmlns="http://www.msn.com/webservices/AddressBook">
+            <annotations>
+              <Annotation>
+                <Name>MSN.IM.Display</Name>
+                <Value>1</Value>
+              </Annotation>
+            </annotations>
+            <groupType>c8529ce2-6ead-434d-881f-341e17db3ff8</groupType>
+            <name>26b87cc0-ae4f-448c-b6b4-4828447b4cd8</name>
+            <IsNotMobileVisible>false</IsNotMobileVisible>
+            <IsPrivate>false</IsPrivate>
+          </groupInfo>
+          <propertiesChanged xmlns="http://www.msn.com/webservices/AddressBook" />
+          <fDeleted xmlns="http://www.msn.com/webservices/AddressBook">false</fDeleted>
+          <lastChange xmlns="http://www.msn.com/webservices/AddressBook">2009-01-19T14:30:03.8+08:00</lastChange>
+        </GroupType>
+      </value>
+    </item>
+    <item>
+      <key>
+        <guid>29816b57-a0fe-4c22-a219-475c76202e3e</guid>
+      </key>
+      <value>
+        <GroupType>
+          <groupId xmlns="http://www.msn.com/webservices/AddressBook">29816b57-a0fe-4c22-a219-475c76202e3e</groupId>
+          <groupInfo xmlns="http://www.msn.com/webservices/AddressBook">
+            <annotations>
+              <Annotation>
+                <Name>MSN.IM.Display</Name>
+                <Value>1</Value>
+              </Annotation>
+            </annotations>
+            <groupType>c8529ce2-6ead-434d-881f-341e17db3ff8</groupType>
+            <name>8b0951fa-ae02-4888-9aea-78fd9be1efa6</name>
+            <IsNotMobileVisible>false</IsNotMobileVisible>
+            <IsPrivate>false</IsPrivate>
+          </groupInfo>
+          <propertiesChanged xmlns="http://www.msn.com/webservices/AddressBook" />
+          <fDeleted xmlns="http://www.msn.com/webservices/AddressBook">false</fDeleted>
+          <lastChange xmlns="http://www.msn.com/webservices/AddressBook">2009-01-19T14:25:04.053+08:00</lastChange>
+        </GroupType>
+      </value>
+    </item>
+  </Groups>
+  <AddressbookContacts>
+    <item>
+      <key>
+        <guid>c5bd42a3-f949-46c3-ba24-295318cfb798</guid>
+      </key>
+      <value>
+        <ContactType>
+          <contactId xmlns="http://www.msn.com/webservices/AddressBook">c5bd42a3-f949-46c3-ba24-295318cfb798</contactId>
+          <contactInfo xmlns="http://www.msn.com/webservices/AddressBook">
+            <annotations>
+              <Annotation>
+                <Name>MSN.IM.MBEA</Name>
+                <Value>0</Value>
+              </Annotation>
+              <Annotation>
+                <Name>MSN.IM.GTC</Name>
+                <Value>1</Value>
+              </Annotation>
+              <Annotation>
+                <Name>MSN.IM.BLP</Name>
+                <Value>0</Value>
+              </Annotation>
+              <Annotation>
+                <Name>MSN.IM.RoamLiveProperties</Name>
+                <Value>1</Value>
+              </Annotation>
+              <Annotation>
+                <Name>Live.Profile.Expression.LastChanged</Name>
+                <Value>2009-01-14T23:12:23.36-08:00</Value>
+              </Annotation>
+            </annotations>
+            <contactType>Me</contactType>
+            <quickName>ME</quickName>
+            <passportName>chuiwenchiu@livemail.tw</passportName>
+            <IsPassportNameHidden>false</IsPassportNameHidden>
+            <displayName>Chui-Wen</displayName>
+            <puid>0</puid>
+            <CID>-58782359755289756</CID>
+            <IsNotMobileVisible>true</IsNotMobileVisible>
+            <isMobileIMEnabled>false</isMobileIMEnabled>
+            <isMessengerUser>false</isMessengerUser>
+            <isFavorite>false</isFavorite>
+            <isSmtp>false</isSmtp>
+            <hasSpace>false</hasSpace>
+            <spotWatchState>NoDevice</spotWatchState>
+            <birthdate>0001-01-01T00:00:00</birthdate>
+            <primaryEmailType>ContactEmailPersonal</primaryEmailType>
+            <PrimaryLocation>ContactLocationPersonal</PrimaryLocation>
+            <PrimaryPhone>ContactPhonePersonal</PrimaryPhone>
+            <IsPrivate>false</IsPrivate>
+            <Gender>Unspecified</Gender>
+            <TimeZone>None</TimeZone>
+          </contactInfo>
+          <propertiesChanged xmlns="http://www.msn.com/webservices/AddressBook" />
+          <fDeleted xmlns="http://www.msn.com/webservices/AddressBook">false</fDeleted>
+          <lastChange xmlns="http://www.msn.com/webservices/AddressBook">2009-01-17T15:43:57.087+08:00</lastChange>
+        </ContactType>
+      </value>
+    </item>
+    <item>
+      <key>
+        <guid>298427d8-a172-49b8-ae24-668bfdf9caaa</guid>
+      </key>
+      <value>
+        <ContactType>
+          <contactId xmlns="http://www.msn.com/webservices/AddressBook">298427d8-a172-49b8-ae24-668bfdf9caaa</contactId>
+          <contactInfo xmlns="http://www.msn.com/webservices/AddressBook">
+            <contactType>Regular</contactType>
+            <quickName>cwchiu</quickName>
+            <passportName>cwchiu@hotmail.com</passportName>
+            <IsPassportNameHidden>false</IsPassportNameHidden>
+            <displayName>Chui-Wen Chiu</displayName>
+            <puid>0</puid>
+            <CID>-3864772205260932888</CID>
+            <IsNotMobileVisible>false</IsNotMobileVisible>
+            <isMobileIMEnabled>false</isMobileIMEnabled>
+            <isMessengerUser>true</isMessengerUser>
+            <isFavorite>false</isFavorite>
+            <isSmtp>false</isSmtp>
+            <hasSpace>true</hasSpace>
+            <spotWatchState>NoDevice</spotWatchState>
+            <birthdate>0001-01-01T00:00:00</birthdate>
+            <primaryEmailType>ContactEmailPersonal</primaryEmailType>
+            <PrimaryLocation>ContactLocationPersonal</PrimaryLocation>
+            <PrimaryPhone>ContactPhonePersonal</PrimaryPhone>
+            <IsPrivate>false</IsPrivate>
+            <Gender>Unspecified</Gender>
+            <TimeZone>None</TimeZone>
+          </contactInfo>
+          <propertiesChanged xmlns="http://www.msn.com/webservices/AddressBook" />
+          <fDeleted xmlns="http://www.msn.com/webservices/AddressBook">false</fDeleted>
+          <lastChange xmlns="http://www.msn.com/webservices/AddressBook">2009-01-15T15:12:32.663+08:00</lastChange>
+        </ContactType>
+      </value>
+    </item>
+    <item>
+      <key>
+        <guid>65ee9203-1623-49a2-b29e-5c3a6c7125b8</guid>
+      </key>
+      <value>
+        <ContactType>
+          <contactId xmlns="http://www.msn.com/webservices/AddressBook">65ee9203-1623-49a2-b29e-5c3a6c7125b8</contactId>
+          <contactInfo xmlns="http://www.msn.com/webservices/AddressBook">
+            <contactType>Regular</contactType>
+            <quickName>jeff</quickName>
+            <passportName>jeff@cc.nsysu.edu.tw</passportName>
+            <IsPassportNameHidden>false</IsPassportNameHidden>
+            <displayName>jeff@cc.nsysu.edu.tw</displayName>
+            <puid>0</puid>
+            <CID>2872771984130400582</CID>
+            <IsNotMobileVisible>false</IsNotMobileVisible>
+            <isMobileIMEnabled>false</isMobileIMEnabled>
+            <isMessengerUser>true</isMessengerUser>
+            <isFavorite>false</isFavorite>
+            <isSmtp>false</isSmtp>
+            <hasSpace>false</hasSpace>
+            <spotWatchState>NoDevice</spotWatchState>
+            <birthdate>0001-01-01T00:00:00</birthdate>
+            <primaryEmailType>ContactEmailPersonal</primaryEmailType>
+            <PrimaryLocation>ContactLocationPersonal</PrimaryLocation>
+            <PrimaryPhone>ContactPhonePersonal</PrimaryPhone>
+            <IsPrivate>false</IsPrivate>
+            <Gender>Unspecified</Gender>
+            <TimeZone>None</TimeZone>
+          </contactInfo>
+          <propertiesChanged xmlns="http://www.msn.com/webservices/AddressBook" />
+          <fDeleted xmlns="http://www.msn.com/webservices/AddressBook">false</fDeleted>
+          <lastChange xmlns="http://www.msn.com/webservices/AddressBook">2009-01-19T14:25:04.553+08:00</lastChange>
+        </ContactType>
+      </value>
+    </item>
+  </AddressbookContacts>
+</ContactList>
