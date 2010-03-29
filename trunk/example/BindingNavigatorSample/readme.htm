@@ -1,0 +1,30 @@
+﻿<html><head><META HTTP-EQUIV="Content-Type" CONTENT="text/html; CHARSET=utf-8" /><META NAME="save" CONTENT="history" /><title xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:msxsl="urn:schemas-microsoft-com:xslt">BindingNavigator 控制項範例</title><META NAME="Description" CONTENT="這個範例會向您示範如何使用與 T:System.Windows.Forms.BindingSource 元件繫結的 T:System.Windows.Forms.BindingNavigator 控制項。"></META><META NAME="MS.LOCALE" CONTENT="en-us" /><style>
+body
+{font-family:Verdana;font-size:medium;}
+div#mainSection, div#header
+{font-size:70%;width: 100%;}
+div#mainBody
+{font-size:90%;}
+div#mainSection div table
+{font-size: 100%;text-align: left;}
+span#nsrTitle
+{color:#003399;font-size:90%;font-weight:600;}
+div#header
+{background-color:#D4DFFF;}
+.heading
+{font-size:120%;color:#003399;}
+.subHeading
+{font-size:100%;margin-bottom:4;}
+li
+{margin-top:-2;margin-bottom:3;}
+p
+{margin-top:10;margin-bottom:5;}
+div.tableSection p
+{margin-top:1;margin-bottom:4;}	
+div#mainSection table th
+{background-color:#EFEFF7;color:#000066;text-align:left;}
+div#mainSection table td
+{background-color:#F7F7FF;}
+div#mainSection table
+{margin-top:5px;margin-bottom: px;}
+			</style></head><body><div id="header"><table width="100%" id="topTable"><tr id="headerTableRow2" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:msxsl="urn:schemas-microsoft-com:xslt"><td align="left"><span id="nsrTitle">BindingNavigator 控制項範例</span></td></tr></table></div><div id="mainSection"><div id="mainBody"><br /><font color="DarkGray">[This readme is a partial copy of the sample's topic in the SDK documentation.]</font><br /><div class="introduction"><p xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:msxsl="urn:schemas-microsoft-com:xslt">這個範例會向您示範如何使用與 BindingSource 元件繫結的 BindingNavigator 控制項。</p><p xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:msxsl="urn:schemas-microsoft-com:xslt">BindingNavigator 控制項會從 ToolStrip 衍生，同時包含預先填入的一組按鈕，可供巡覽 BindingSource 元件中的資料。而且，這些按鈕的功能都是可以擴充的。在這個範例中，已經覆寫了 [<span class="ui">New</span>] 按鈕的行為。 </p><p xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:msxsl="urn:schemas-microsoft-com:xslt">如需使用這些範例的詳細資訊，請參閱下列主題：</p><ul xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:msxsl="urn:schemas-microsoft-com:xslt"><li><p>HOW TO：檢視和下載範例</p></li><li><p>HOW TO：設定範例設定</p></li></ul><div class="alert"><table width="100%" cellspacing="0" cellpadding="0" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:msxsl="urn:schemas-microsoft-com:xslt"><tr><th align="left"><b>安全性注意事項：</b></th></tr><tr><td><p>這個程式碼範例僅供概念說明之用，同時因為範例中的程式碼撰寫並沒有周全的顧及所有安全性問題，所以本範例不適用於實際執行的應用程式或網站中。如果使用者擅自將範例程式碼用於其他意圖而導致連帶事件或重大損害時，Microsoft 將不承擔任何責任。</p></td></tr></table></div></div><h3 class="procedureSubHeading" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:msxsl="urn:schemas-microsoft-com:xslt">若要使用命令提示字元建置及執行範例</h3><div class="subSection"><ol xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:msxsl="urn:schemas-microsoft-com:xslt"><li><p>在命令提示字元中，巡覽至您用來儲存未壓縮的範例檔案的位置。。 </p></li><li><p>巡覽到 BindingNavigatorSample 目錄下任一程式設計語言的子目錄。</p></li><li><p>輸入 <span class="input">msbuild</span>，使用提供的方案 (.sln) 檔來建置範例。 </p></li><li><p>輸入 <span class="input">cd BindingNavigatorSample\bin\Debug</span>，巡覽到可執行檔的所在位置。</p></li><li><p>輸入 <span class="input">BindingNavigatorSample.exe</span> 即可執行範例。 </p></li></ol></div><h3 class="procedureSubHeading" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:msxsl="urn:schemas-microsoft-com:xslt">若要使用 Visual Studio 建置和執行這個範例</h3><div class="subSection"><ol xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:msxsl="urn:schemas-microsoft-com:xslt"><li><p>在 [<span class="ui">Windows 檔案總管</span>] 中，巡覽至您用來儲存未壓縮的範例檔案的位置。</p></li><li><p>巡覽到 BindingNavigatorSample 目錄下任一程式設計語言的子目錄。</p></li><li><p>按兩下方案 (.sln) 檔，在 Visual Studio 中開啟該方案檔。 </p></li><li><p>在 Visual Studio 中，按 F5 進行建置並執行範例。</p></li></ol></div><h3 class="procedureSubHeading" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:msxsl="urn:schemas-microsoft-com:xslt">若要使用 BindingNavigatorSample</h3><div class="subSection"><ul xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:msxsl="urn:schemas-microsoft-com:xslt"><li><p>從 ComboBox 控制項選取一個旗標，然後按一下加號 (<span class="ui">+</span>) 按鈕，建立 <span class="code">Flag</span> 物件，並將它加入至 BindingSource 元件。如果想要移動已加入的 <span class="code">Flag</span> 項目，可以使用 BindingNavigator 控制項上的箭號按鈕。</p></li></ul></div><h1 class="heading" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:msxsl="urn:schemas-microsoft-com:xslt"><span onclick="ExpandCollapse(demonstratesToggle)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(demonstratesToggle, event)" tabindex="0">示範</span></h1><div id="demonstratesSection" class="section"><ul xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:msxsl="urn:schemas-microsoft-com:xslt"><li><p>使用 BindingNavigator 控制項，移動資料來源中的所有項目 </p></li><li><p>使用 BindingSource 元件，將 Windows Forms 控制項繫結至資料來源</p></li></ul></div><h1 class="heading" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:msxsl="urn:schemas-microsoft-com:xslt"><span onclick="ExpandCollapse(seeAlsoToggle)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(seeAlsoToggle, event)" tabindex="0">請參閱</span></h1><div id="seeAlsoSection" class="section"><h4 class="subHeading" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:msxsl="urn:schemas-microsoft-com:xslt">概念</h4><div class="seeAlsoStyle">HOW TO：將 Windows Form 控制項繫結至型別</div><h4 class="subHeading" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:msxsl="urn:schemas-microsoft-com:xslt">參考</h4><div class="seeAlsoStyle">Panel</div><div class="seeAlsoStyle">BindingSource</div><div class="seeAlsoStyle">BindingNavigator</div><div class="seeAlsoStyle">DataGridView</div><div class="seeAlsoStyle">System.Collections..::.IList</div><div class="seeAlsoStyle">System.ComponentModel..::.IBindingList</div><div class="seeAlsoStyle">System.ComponentModel..::.IEditableObject</div></div></div></div></body></html>
