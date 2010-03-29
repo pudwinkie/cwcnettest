@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcWorkflowLib", "CalcWorkflowLib\CalcWorkflowLib.csproj", "{5E6C2ED1-8A22-4BAF-8F8A-2154C1683F55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcWin", "CalcWin\CalcWin.csproj", "{DF8D5F10-2891-490C-B2C4-2FBFB9F7CCB5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E6C2ED1-8A22-4BAF-8F8A-2154C1683F55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E6C2ED1-8A22-4BAF-8F8A-2154C1683F55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E6C2ED1-8A22-4BAF-8F8A-2154C1683F55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E6C2ED1-8A22-4BAF-8F8A-2154C1683F55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF8D5F10-2891-490C-B2C4-2FBFB9F7CCB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF8D5F10-2891-490C-B2C4-2FBFB9F7CCB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF8D5F10-2891-490C-B2C4-2FBFB9F7CCB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF8D5F10-2891-490C-B2C4-2FBFB9F7CCB5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
