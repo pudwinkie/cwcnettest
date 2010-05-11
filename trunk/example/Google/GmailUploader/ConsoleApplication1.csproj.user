@@ -1,0 +1,5 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <StartArguments>sisimi.pchome@gmail.com 13579gmail H:\書庫\email</StartArguments>
+  </PropertyGroup>
+</Project>
