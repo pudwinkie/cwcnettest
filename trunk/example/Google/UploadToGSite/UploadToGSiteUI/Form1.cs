@@ -17,6 +17,9 @@ namespace UploadToGSiteUI {
     public partial class Form1 : Form {
         public Form1() {
             InitializeComponent();
+            lstResult.SimpleDrapDrop<string[]>(DataFormats.Text, x => {
+                lstResult.Items.AddRange(x);
+            });
         }
 
         private void button1_Click(object sender, EventArgs e) {
@@ -103,6 +106,7 @@ namespace UploadToGSiteUI {
             public AtomEntry Parent { get; set; }
         }
 
+
         private void btnExport_Click(object sender, EventArgs e) {
             if (lstResult.Items.Count == 0) {
                 return;
@@ -126,6 +130,38 @@ namespace UploadToGSiteUI {
                 File.WriteAllText(fn, File.ReadAllText( Path.Combine(Application.StartupPath,"template.htm")).Replace("{0}", sb.ToString()));
                 Process.Start(fn);
             }
+        }
+    }
+
+    static class DrapDropExtend {
+        public static void SimpleDrapDrop<T>(this Control c, string dataformat, Action<T> hanlder) where T : class {
+            c.AllowDrop = true;
+            c.DragEnter += (s, e) => {
+                    // 確定使用者抓進來的是檔案
+                    if (e.Data.GetDataPresent(DataFormats.FileDrop, false) == true) {
+                        // 允許拖拉動作繼續 (這時滑鼠游標應該會顯示 +)
+                        e.Effect = DragDropEffects.All;
+                    }
+                };
+
+            c.DragDrop += (s, e) => {
+                string[] files = (string[])e.Data.GetData(DataFormats.FileDrop);
+                //foreach (var fn in files) {
+                hanlder(files as T);
+                //}
+            };
+        }
+
+        public static void SimpleDrapDrop(this Control c, Action<DragEventArgs> enterHanlder, Action<DragEventArgs> dropHanlder) {
+            c.AllowDrop = true;
+            c.DragEnter += (s, e) => enterHanlder(e);
+            c.DragDrop += (s, e) => enterHanlder(e);
+        }
+
+        public static void SimpleDrapDrop(this Control c, DragEventHandler enterHanlder, DragEventHandler dropHanlder) {
+            c.AllowDrop = true;
+            c.DragEnter += enterHanlder;
+            c.DragDrop += dropHanlder;
         }
     }
 }
