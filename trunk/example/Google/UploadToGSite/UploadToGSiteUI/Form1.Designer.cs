@@ -23,41 +23,31 @@
         /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent() {
-            this.button1 = new System.Windows.Forms.Button();
             this.lstResult = new System.Windows.Forms.ListBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.txtId = new System.Windows.Forms.TextBox();
             this.txtPwd = new System.Windows.Forms.TextBox();
             this.txtUrl = new System.Windows.Forms.TextBox();
-            this.txtDir = new System.Windows.Forms.TextBox();
             this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
             this.btnStart = new System.Windows.Forms.Button();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.btnExport = new System.Windows.Forms.Button();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
+            this.lstData = new System.Windows.Forms.ListBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(418, 80);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(28, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "...";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // lstResult
             // 
             this.lstResult.FormattingEnabled = true;
             this.lstResult.ItemHeight = 12;
-            this.lstResult.Location = new System.Drawing.Point(25, 119);
+            this.lstResult.Location = new System.Drawing.Point(25, 213);
             this.lstResult.Name = "lstResult";
             this.lstResult.ScrollAlwaysVisible = true;
-            this.lstResult.Size = new System.Drawing.Size(421, 196);
+            this.lstResult.Size = new System.Drawing.Size(421, 136);
             this.lstResult.TabIndex = 1;
             // 
             // label1
@@ -87,15 +77,6 @@
             this.label3.TabIndex = 4;
             this.label3.Text = "Google Site URL";
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(23, 91);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(65, 12);
-            this.label4.TabIndex = 5;
-            this.label4.Text = "上傳資料夾";
-            // 
             // txtId
             // 
             this.txtId.Location = new System.Drawing.Point(114, 3);
@@ -115,19 +96,12 @@
             // 
             this.txtUrl.Location = new System.Drawing.Point(114, 56);
             this.txtUrl.Name = "txtUrl";
-            this.txtUrl.Size = new System.Drawing.Size(332, 22);
+            this.txtUrl.Size = new System.Drawing.Size(299, 22);
             this.txtUrl.TabIndex = 8;
-            // 
-            // txtDir
-            // 
-            this.txtDir.Location = new System.Drawing.Point(114, 81);
-            this.txtDir.Name = "txtDir";
-            this.txtDir.Size = new System.Drawing.Size(307, 22);
-            this.txtDir.TabIndex = 9;
             // 
             // btnStart
             // 
-            this.btnStart.Location = new System.Drawing.Point(371, 326);
+            this.btnStart.Location = new System.Drawing.Point(371, 360);
             this.btnStart.Name = "btnStart";
             this.btnStart.Size = new System.Drawing.Size(75, 27);
             this.btnStart.TabIndex = 10;
@@ -143,7 +117,7 @@
             // 
             // btnExport
             // 
-            this.btnExport.Location = new System.Drawing.Point(290, 328);
+            this.btnExport.Location = new System.Drawing.Point(290, 362);
             this.btnExport.Name = "btnExport";
             this.btnExport.Size = new System.Drawing.Size(75, 23);
             this.btnExport.TabIndex = 11;
@@ -151,14 +125,43 @@
             this.btnExport.UseVisualStyleBackColor = true;
             this.btnExport.Click += new System.EventHandler(this.btnExport_Click);
             // 
+            // lstData
+            // 
+            this.lstData.FormattingEnabled = true;
+            this.lstData.ItemHeight = 12;
+            this.lstData.Location = new System.Drawing.Point(25, 107);
+            this.lstData.Name = "lstData";
+            this.lstData.Size = new System.Drawing.Size(421, 100);
+            this.lstData.TabIndex = 12;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(419, 54);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(27, 23);
+            this.button1.TabIndex = 13;
+            this.button1.Text = "Go";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(23, 92);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(133, 12);
+            this.label4.TabIndex = 4;
+            this.label4.Text = "上傳列表(拖檔案到下面)";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(455, 365);
+            this.ClientSize = new System.Drawing.Size(455, 389);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.lstData);
             this.Controls.Add(this.btnExport);
             this.Controls.Add(this.btnStart);
-            this.Controls.Add(this.txtDir);
             this.Controls.Add(this.txtUrl);
             this.Controls.Add(this.txtPwd);
             this.Controls.Add(this.txtId);
@@ -167,11 +170,11 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lstResult);
-            this.Controls.Add(this.button1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.MaximizeBox = false;
             this.Name = "Form1";
-            this.Text = "UploadToGSite v0.2";
+            this.Text = "UploadToGSite v0.3";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -179,21 +182,21 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.ListBox lstResult;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtId;
         private System.Windows.Forms.TextBox txtPwd;
         private System.Windows.Forms.TextBox txtUrl;
-        private System.Windows.Forms.TextBox txtDir;
         private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog1;
         private System.Windows.Forms.Button btnStart;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.Windows.Forms.Button btnExport;
         private System.Windows.Forms.SaveFileDialog saveFileDialog1;
+        private System.Windows.Forms.ListBox lstData;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label4;
     }
 }
 
