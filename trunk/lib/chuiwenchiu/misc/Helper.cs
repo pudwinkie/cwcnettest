@@ -1,5 +1,21 @@
 namespace chuiwenchiu.misc{
     public class Helper{
+		public static bool IsProcessRunning(){
+			bool isAppRunning;
+			System.Threading.Mutex mutex = new System.Threading.Mutex(
+				true,
+				System.Diagnostics.Process.GetCurrentProcess().ProcessName,
+				out isAppRunning);
+
+			return isAppRunning;
+		}
+
+		public static void Singleton(){
+			if(IsProcessRunning()){
+				Appliction.Exit(0);
+			}
+		}
+
         /// <summary>
         /// 檢查統一編號是否正確
         /// </summary>
