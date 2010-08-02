@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetInterfacePerfMonitor", "NetInterfacePerfMonitor.csproj", "{2400CA70-E7E7-4466-BA84-DDD015EA0611}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{2400CA70-E7E7-4466-BA84-DDD015EA0611}.Debug.ActiveCfg = Debug|.NET
+		{2400CA70-E7E7-4466-BA84-DDD015EA0611}.Debug.Build.0 = Debug|.NET
+		{2400CA70-E7E7-4466-BA84-DDD015EA0611}.Release.ActiveCfg = Release|.NET
+		{2400CA70-E7E7-4466-BA84-DDD015EA0611}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
