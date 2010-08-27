@@ -64,5 +64,16 @@ namespace ChuiWenChiu.Win32 {
             return ExitCode;
         }
 
+
+	// ¤Þ¤J "Windows Script Host Object Model" ©Î "Microsoft Shell Controls And Automation"
+	public static void CreateShortcut(){
+		var sh = new WshShell();
+		var shortcut = (IWshShortcut)sh.CreateShortcut("d:\\test.lnk");
+		shortcut.TargetPath = "c:\\windows\\explorer.exe";
+		shortcut.WorkingDirectory = "c:\\windows";
+		shortcut.Description = "xxxx";
+		shortcut.WindowStyle = 4;
+		shortcut.Save();
+	}
     }
 }
