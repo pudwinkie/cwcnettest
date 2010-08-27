@@ -641,6 +641,29 @@ namespace cwc
             public int right;
             public int bottom;
         }
+
+
+		[DllImport("user32.dll", CharSet = CharSet.Auto, SetLastError = true)]
+		static extern bool SystemParametersInfo(uint uAction, uint uParam, StringBuilder lpvParam, uint init);
+		const uint SPI_GETDESKWALLPAPER = 0x0073;
+		// 桌布路徑
+		public static String WallPaperPath(){
+			StringBuilder wallPaperPath = new StringBuilder(200);
+
+			if (SystemParametersInfo(SPI_GETDESKWALLPAPER, 200, wallPaperPath, 0))
+			{
+				return wallPaperPath.ToString();
+			}
+
+			
+		}
+
+		// 顯示桌面
+		public static void ShowDesktop(){
+			Type shellType = Type.GetTypeFromProgID("Shell.Application");
+			object shellObject = System.Activator.CreateInstance(shellType);
+			shellType.InvokeMember("ToggleDesktop", System.Reflection.BindingFlags.InvokeMethod, null, shellObject, null);
+		}
     }
 }
 
